@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.15)  27 SEP 2018 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.25)  22 JUN 2019 19:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2113,199 +2113,185 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--236
 
  []
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.242 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--246
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--242
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.243 = -2 \left
+                ( 2 \Omega w \cos \phi -2 \Omega v \sin \phi \right) \mathbf{i}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--252
+Underfull \hbox (badness 10000) in paragraph at lines 250--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--260
+Underfull \hbox (badness 10000) in paragraph at lines 257--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 263--267
+Underfull \hbox (badness 10000) in paragraph at lines 264--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--272
+Underfull \hbox (badness 10000) in paragraph at lines 269--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--277
+Underfull \hbox (badness 10000) in paragraph at lines 274--278
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--287
+Underfull \hbox (badness 10000) in paragraph at lines 283--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--293
+Underfull \hbox (badness 10000) in paragraph at lines 289--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--297
+Underfull \hbox (badness 10000) in paragraph at lines 295--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--306
+Underfull \hbox (badness 10000) in paragraph at lines 304--307
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--316
-
- []
+! Missing $ inserted.
+<inserted text> 
+                $
+l.310 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--320
+Underfull \hbox (badness 10000) in paragraph at lines 315--329
 
  []
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.334 = - 4 \left( \rm kg ~ m ~ s^{-1} \right)$
+                                               \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--324
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--335
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 325--328
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--333
+Underfull \hbox (badness 10000) in paragraph at lines 338--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--338
+Underfull \hbox (badness 10000) in paragraph at lines 347--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--341
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
-
- []
+! Missing $ inserted.
+<inserted text> 
+                $
+l.356 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--369
+Underfull \hbox (badness 10000) in paragraph at lines 354--356
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 370--375
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 376--377
-
- []
+! Missing $ inserted.
+<inserted text> 
+                $
+l.357 v_
+        {g} = - \dfrac{1}{f} \cdot \dfrac{1}{\rho} \cdot \dfrac{\partial P}{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--384
+Underfull \hbox (badness 10000) in paragraph at lines 357--362
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--391
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 398--404
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--412
-
- []
-
-) [14]
+) [13]
 \openout2 = `sub/footer.aux'.
 
- (./sub/footer.tex (./book_main.ptc) [15
+ (./sub/footer.tex [14
 
 
 
-] [16] (./book_main.ind
+] (./book_main.ptc) [15] [16] (./book_main.ind
 
 LaTeX Warning: File `chapter_head_2.pdf' not found on input line 1.
 
@@ -2494,11 +2480,11 @@ Package logreq Info: Writing requests to 'book_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38778 strings out of 492649
- 724643 string characters out of 6133384
- 1281301 words of memory out of 5000000
- 41815 multiletter control sequences out of 15000+600000
- 662356 words of font info for 305 fonts, out of 8000000 for 9000
+ 38775 strings out of 492649
+ 724576 string characters out of 6133383
+ 1281303 words of memory out of 5000000
+ 41813 multiletter control sequences out of 15000+600000
+ 662063 words of font info for 304 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,13n,57p,10517b,2737s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{page.37} has been referenced but does not exist, 
@@ -2542,89 +2528,87 @@ dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2018/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
-.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbac.pfb><
-c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbae.pfb><c:/tex
-live/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbb3.pfb><c:/texlive/2
-018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbb7.pfb><c:/texlive/2018/te
-xmf-dist/fonts/type1/public/nanumtype1/nanumgtbb8.pfb><c:/texlive/2018/texmf-di
-st/fonts/type1/public/nanumtype1/nanumgtbbb.pfb><c:/texlive/2018/texmf-dist/fon
-ts/type1/public/nanumtype1/nanumgtbbc.pfb><c:/texlive/2018/texmf-dist/fonts/typ
-e1/public/nanumtype1/nanumgtbbd.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
-lic/nanumtype1/nanumgtbc0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/na
-numtype1/nanumgtbc1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtyp
-e1/nanumgtbc2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nan
-umgtbc5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc
-6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc7.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc8.pfb><c:/te
-xlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc9.pfb><c:/texlive/
-2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbce.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/public/nanumtype1/nanumgtbd1.pfb><c:/texlive/2018/texmf-d
-ist/fonts/type1/public/nanumtype1/nanumgtbd4.pfb><c:/texlive/2018/texmf-dist/fo
-nts/type1/public/nanumtype1/nanumgtbd5.pfb><c:/texlive/2018/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanumgtbd6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanumgtmac.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/n
-anumtype1/nanumgtmae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumty
-pe1/nanumgtmb3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/na
-numgtmb7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtm
-b8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbb.pfb
-><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbc.pfb><c:/t
-exlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc0.pfb><c:/texlive
-/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc1.pfb><c:/texlive/2018/
-texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc2.pfb><c:/texlive/2018/texmf-
-dist/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/public/nanumtype1/nanumgtmc6.pfb><c:/texlive/2018/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanumgtmc7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanumgtmc8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
-nanumtype1/nanumgtmc9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumt
-ype1/nanumgtmce.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/n
-anumgtmd1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgt
-md4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd6.pf
-b><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/
-texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texliv
-e/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2018
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2018/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2018/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2018/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjmb4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmb5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmb7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmb8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmb9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.p
-fb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texli
-ve/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/201
-8/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2018/texmf-dist
-/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2018/texmf-dist/fonts
-/type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/nanumtype1/nanummjmc3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanummjmc5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanu
-mtype1/nanummjmc6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1
-/nanummjmc7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanum
-mjmc8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.
-pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmca.pfb><c
-:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texl
-ive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/20
-18/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2018/tex
-mf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb><c:/texlive/2018/texmf-dis
-t/fonts/type1/public/nanumtype1/nanummjmd1.pfb><c:/texlive/2018/texmf-dist/font
-s/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2018/texmf-dist/fonts/type
-1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
-ic/nanumtype1/nanummjmd5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nan
-umtype1/nanummjmd6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype
-1/nanummjmd7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt10
-95.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb><c:/texl
-ive/2018/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb><c:/texlive/2018/texmf-
-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/ur
-w/symbol/usyr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on book_main.pdf (23 pages, 2502843 bytes).
+sy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbac.p
+fb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbae.pfb><c:
+/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbb3.pfb><c:/texli
+ve/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbb7.pfb><c:/texlive/201
+8/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbb8.pfb><c:/texlive/2018/texm
+f-dist/fonts/type1/public/nanumtype1/nanumgtbbb.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/nanumtype1/nanumgtbbc.pfb><c:/texlive/2018/texmf-dist/fonts
+/type1/public/nanumtype1/nanumgtbbd.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/public/nanumtype1/nanumgtbc0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanumgtbc1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanu
+mtype1/nanumgtbc2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1
+/nanumgtbc5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanum
+gtbc6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc7.
+pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc8.pfb><c
+:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc9.pfb><c:/texl
+ive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbce.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbd1.pfb><c:/texlive/2018/tex
+mf-dist/fonts/type1/public/nanumtype1/nanumgtbd4.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/public/nanumtype1/nanumgtbd5.pfb><c:/texlive/2018/texmf-dist/font
+s/type1/public/nanumtype1/nanumgtbd6.pfb><c:/texlive/2018/texmf-dist/fonts/type
+1/public/nanumtype1/nanumgtmac.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanumgtmae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nan
+umtype1/nanumgtmb3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype
+1/nanumgtmb7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mgtmb8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbb
+.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmbc.pfb><
+c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc0.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc1.pfb><c:/texlive/2
+018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmc2.pfb><c:/texlive/2018/te
+xmf-dist/fonts/type1/public/nanumtype1/nanumgtmc5.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/nanumtype1/nanumgtmc6.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/nanumtype1/nanumgtmc7.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanumgtmc8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanumgtmc9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/na
+numtype1/nanumgtmce.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanumgtmd1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nan
+umgtmd4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtmd
+6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/te
+xlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/
+2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/2018/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjmb4.pfb><c:/texlive/2018/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjmb5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjmb7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjmb8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjmb9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmba.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
+bb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb
+><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/t
+exlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texlive
+/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2018/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2018/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjmc3.pfb><c:/texlive/2018/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjmc5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjmc6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjmc7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjmc8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjmc9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+mca.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pf
+b><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb><c:/texliv
+e/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb><c:/texlive/2018
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb><c:/texlive/2018/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2018/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2018/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmd6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmd7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-su
+per/sftt1095.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pf
+b><c:/texlive/2018/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb><c:/texlive/2
+018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2018/texmf-dist/font
+s/type1/urw/symbol/usyr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/u
+tmb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texl
+ive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on book_main.pdf (23 pages, 2448138 bytes).
 PDF statistics:
- 633 PDF objects out of 1000 (max. 8388607)
- 486 compressed objects within 5 object streams
+ 625 PDF objects out of 1000 (max. 8388607)
+ 480 compressed objects within 5 object streams
  56 named destinations out of 1000 (max. 500000)
  52317 words of extra memory for PDF output out of 61914 (max. 10000000)
 
