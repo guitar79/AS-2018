@@ -1,4 +1,4 @@
-\documentclass[preprint,12pt]{elsarticle}
+%\documentclass{exam}
 
 \usepackage[hangul]{kotex} %<===> EUC-KR
 \usepackage{ifxetex} % 부득이하게 pdflatex을 사용해도 문제가 없도록 함
@@ -13,6 +13,11 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
 \nonfrenchspacing
 \else
 \fi
+
+\usepackage[T1]{fontenc}
+\usepackage{pslatex}
+\usepackage[pdftex]{color}  
+\usepackage[pdftex]{graphicx}     
 
 \usepackage{titlesec}
 \usepackage{verbatim}
@@ -57,9 +62,6 @@ ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
 \usepackage{setspace}
 \usepackage{array}
 \usepackage{textcomp}
-
-
-\journal{Future Generation Computing Systems}
 
 \begin{document}
 	%----------------------------------------------------------------------------------------
