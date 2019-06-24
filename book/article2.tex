@@ -1,0 +1,70 @@
+\documentclass[preprint,12pt]{elsarticle}
+
+\usepackage[hangul]{kotex} %<===> EUC-KR
+\usepackage{ifxetex} % 부득이하게 pdflatex을 사용해도 문제가 없도록 함
+
+\ifxetex
+%한글 사용 옵션
+\RequirePackage{xetexko}
+\setmainfont[Ligatures=TeX]{Batang}
+\setmainhangulfont[BoldFont=*,BoldFeatures=FakeBold,%
+ItalicFont=*,ItalicFeatures=FakeSlant]{Batang}
+\disablecjksymbolspacing
+\nonfrenchspacing
+\else
+\fi
+
+\usepackage{titlesec}
+\usepackage{verbatim}
+\usepackage[title,titletoc]{appendix}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{setspace}
+\usepackage{amssymb}
+\usepackage{bigstrut}
+\usepackage{lineno}
+\usepackage{afterpage}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{amsfonts,epsfig}
+\usepackage{rotating}
+\usepackage{algorithmicx}
+\usepackage{color}
+\usepackage{subcaption}
+\captionsetup{compatibility=false}
+\usepackage[normalem]{ulem}
+\usepackage{pstricks,pst-node,amsmath}
+\usepackage{multirow}
+\usepackage{graphicx,amsmath} 
+\usepackage{flushend}
+\usepackage{amssymb,amsfonts,amsbsy,epsfig}
+\usepackage{lscape}
+\usepackage[noend]{algpseudocode}
+\usepackage{epstopdf}
+\usepackage{amsmath,mathtools}
+\usepackage{framed}
+\usepackage{algorithm}
+\usepackage{hyperref}
+\usepackage[margin=0.5 in]{geometry}
+\usepackage[symbol]{footmisc}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\usepackage{amssymb}
+\usepackage{xspace}
+\usepackage{setspace}
+\usepackage{array}
+\usepackage{textcomp}
+
+
+\journal{Future Generation Computing Systems}
+
+\begin{document}
+	%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+\include{00atmospheric_science/document}	
+	
+\end{document}
