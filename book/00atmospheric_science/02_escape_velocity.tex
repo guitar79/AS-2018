@@ -79,8 +79,8 @@
 \end{figure*}
 
 \end{questions}
-%(https://solarsystem.nasa.gov/system/resources/detail_files/681_ptemp.jpg)
 
+%(https://solarsystem.nasa.gov/system/resources/detail_files/681_ptemp.jpg)
 
 # 맥스웰-볼츠만 분포
 
@@ -93,26 +93,48 @@
 
 분자들의 속력에 대한 멕스웰-볼츠만 분포는 아래와 같이 쓸 수 있다.
 
-$f(v) = 4 \pi \left(\dfrac{M}{2\pi R T} \right)^{\frac{3}{2}} v^2 ~\mathrm{exp}\it \left[\dfrac{-Mv^2}{\rm{2} \it RT}\right]$
+$f(v) = 4 \pi \left(\frac{M}{2\pi R T} \right)^{\dfrac{3}{2}} v^2 ~\mathrm{exp}\it \left[\dfrac{-Mv^2}{\rm{2} \it RT}\right]$
 
-$f(v) = 4 \pi \left(\dfrac{m}{2\pi k T} \right)^{\frac{3}{2}} v^2 ~\mathrm{exp}\it \left[\dfrac{-mv^2}{\rm{2} \it kT}\right]$
+$f(v) = 4 \pi \left(\frac{m}{2\pi k T} \right)^{\dfrac{3}{2}} v^2 ~\mathrm{exp}\it \left[\dfrac{-mv^2}{\rm{2} \it kT}\right]$
 
 ($M$: 분자량, $m$: 분자의 질량)
 
-최빈 속력($v_{\mathrm{mp}}$)는 $\dfrac{df(v)}{dv} = 0$으로 두고 $v_{mp}$에 대하여 풀면 
+최빈 속력($v_{\mathrm{mp}}$)는 $\dfrac{df(v)}{dv} = 0$으로 두고 $v_{mp}$에 대하여 풀어보자.
 
-$v_{\mathrm{mp}} = \sqrt {\dfrac{2RT}{M}} = \sqrt {\dfrac{2kT}{m}}$
+$\dfrac{d f(v)}{d v}=4 \pi\left(\dfrac{m}{2 \pi k T}\right)^{\frac{3}{2}}\left(2 v e^{\frac{-m v^{2}}{2 k T}}+\dfrac{-2 m v}{2 k T} v^{2} e^{\frac{-m v^{2}}{2 k T}}\right)$
+
+$=4 \pi\left(\dfrac{m}{2 \pi k T}\right)^{\frac{3}{2}} v e^{\frac{-m v^{2}}{2 k T}}\left(2-\dfrac{m}{k T} v^{2}\right)=0$
+
+$2-\dfrac{m}{k T} v^{2} = 0$, $v_{\mathrm{mp}} =  \sqrt {\dfrac{2kT}{m}} $, $v_{\mathrm{mp}} = \sqrt {\dfrac{2RT}{M}} $
 
 평균 속력은 속력 분포의 수학적 평균이므로 다음과 같이 된다.
 
-${\overline{v}} = \int_{0}^{\infty} v f(v) dv = \sqrt {\dfrac{8kT}{\pi m}} = \sqrt {\dfrac{8RT}{\pi M}}$
+$${\overline{v}} = \int_{0}^{\infty} v f(v) dv$$
+
+이를 부분 적분을 이용해 보자.
+$$\left(\int f(x) g^{\prime}(x) d x=f(x) g(x)-\int f^{\prime}(x) g(x) d x\right)$$
+
+$$\int_{0}^{\infty} x^{3} e^{-x^{2}} d x=\dfrac{1}{2}$$
+
+$$\int_{0}^{\infty} x^{4} e^{-x^{2}} d x=\dfrac{1}{2}$$
+
+임을 보이자.
+
+$$\int_{0}^{\infty} x^{3} e^{-x^{2}} d x=\left[-\frac{x^{2}}{2} e^{-x^{2}}\right]_{0}^{\infty}+\int_{0}^{\infty} x e^{-x^{2}} dx \\
+$=\left[-\frac{x^{2}}{2} e^{-x^{2}}\right]_{0}^{\infty}-\left[\dfrac{1}{2} e^{-x^{2}}\right]_{0}^{\infty} \\
+=\lim_{y \rightarrow \infty}\left(-\dfrac{y^{2}}{2} e^{-y^{2}}-\dfrac{1}{2} e^{-y^{2}}\right)+\dfrac{1}{2} = \dfrac{1}{2}$\\
+
+$ {\overline{v}} = \sqrt {\dfrac{8kT}{\pi m}} \\
+{\overline{v}} = \sqrt {\dfrac{8RT}{\pi M}}$
 
 
 또한 제곱 평균 속도, $v_{rms}$는 속력에 제곱하여 평균한 값에 제곱근을 취한 것이기 때문에 밑의 식으로 나타낼 수 있다.
 
-$v_{\mathrm {rms} } = \sqrt {{\int _{0}^{\infty }v^{2}\, f(v)\, dv}} 
-={\sqrt {\dfrac {3RT}{M}}}
-= {\sqrt {\dfrac {3kT}{m}}}$
+
+$v_{\mathrm {rms} } = \sqrt {{\int _{0}^{\infty }v^{2}\, f(v)\, dv}} $
+
+$v_{\mathrm {rms} }={\sqrt {\dfrac {3RT}{M}}}$, $v_{\mathrm {rms} } = {\sqrt {\dfrac {3kT}{m}}}$
+
 
 따라서 전체 속력은 아래와 같다.
 
