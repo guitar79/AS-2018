@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.15)  25 JUN 2019 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.25)  25 JUN 2019 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1366,7 +1366,10 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
 (./article2_Solution.aux (./00atmospheric_science/01_effective_temperature.aux)
-(./00atmospheric_science/02_escape_velocity.aux))
+(./00atmospheric_science/02_escape_velocity.aux)
+(./00atmospheric_science/03_atmospheric_movement.aux)
+(./00atmospheric_science/04_hydrostatic_equation_of_atmosphere.aux)
+(./00atmospheric_science/05_Thermodynamics_of_atmosphere.aux))
 \openout1 = `article2_Solution.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -1494,35 +1497,35 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 12
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 13
 .
 (c:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 12
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 13
 .
 
 (c:/texlive/2018/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 12
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 13
 .
 
 (c:/texlive/2018/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
-LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1530,7 +1533,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ! Undefined control sequence.
 <argument> ...@tempdima \@parboxrestore \question 
                                                   * 행성의 유효 온도�...
-l.90 	}
+l.91 	}
        };
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1539,7 +1542,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 90.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 91.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1550,7 +1553,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 \end{questions}
+l.96 \end{questions}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1559,7 +1562,7 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.95 \end{questions}
+l.96 \end{questions}
                     
 Things are pretty mixed up, but I think the worst is over.
 
@@ -1717,85 +1720,598 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ) [6]
+\openout2 = `00atmospheric_science/03_atmospheric_movement.aux'.
+
+ (./00atmospheric_science/03_atmospheric_movement.tex
+Runaway argument?
+! Paragraph ended before \markboth was complete.
+<to be read again> 
+                   \par 
+l.5 
+    
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.10 #
+      좌표계1
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.84 #
+      좌표계2
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[7
+
+
+]
+! You can't use `macro parameter character #' in vertical mode.
+l.119 #
+        Pressure gradient force
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.174 #
+        회전계에서의 운동 방정식
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[8]
+! You can't use `macro parameter character #' in vertical mode.
+l.218 #
+        직각 카테시안 좌표계에서의 운동 방정식
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--287
+
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.294 #
+        자연 좌표계
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[9]
+! You can't use `macro parameter character #' in vertical mode.
+l.338 #
+        관성풍
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.347 #
+        geostrophic wind
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.365 #
+        경도풍
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.375 #
+        연습 문제 1. ~ 4.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[10]
+! You can't use `macro parameter character #' in vertical mode.
+l.452 #
+        연습 문제 5. ~ 6.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[11]
+! You can't use `macro parameter character #' in vertical mode.
+l.506 #
+        연습 문제 7. ~ 8.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+) [12]
+\openout2 = `00atmospheric_science/04_hydrostatic_equation_of_atmosphere.aux'.
+
+ (./00atmospheric_science/04_hydrostatic_equation_of_atmosphere.tex
+Runaway argument?
+! Paragraph ended before \markboth was complete.
+<to be read again> 
+                   \par 
+l.5 
+    
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.6 #
+      연습 문제 1
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.37 #
+       연습 문제 2
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.57 #
+       연습 문제 3
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.75 #
+       연습 문제 4
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.88 #
+       연습 문제 5
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[13
+
+
+]
+! Misplaced alignment tab character &.
+l.118 ...og.naver.com/PostView.nhn?blogId=tnehf18&
+                                                  logNo=220423609713&proxyRe...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.118 ...ew.nhn?blogId=tnehf18&logNo=220423609713&
+                                                  proxyReferer=https%3A%2F%2...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.127 #
+        연습 문제 6
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.142 #
+        연습 문제 7
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.149 #
+        연습 문제 8
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.159 #
+        연습 문제 9
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.162 ...� 동안 시간에 따라 지상기온 T_
+                                                  0는 변도하나, 지상�...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.163 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+! You can't use `macro parameter character #' in vertical mode.
+l.166 #
+        연습 문제 10
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.169 ...�감율을 건조단열감율인 6.5C km^
+                                                  {-1}으로 가정하여 �...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.170 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+) [14]
+\openout2 = `00atmospheric_science/05_Thermodynamics_of_atmosphere.aux'.
+
+ (./00atmospheric_science/05_Thermodynamics_of_atmosphere.tex
+Runaway argument?
+! Paragraph ended before \markboth was complete.
+<to be read again> 
+                   \par 
+l.5 
+    
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.6 #
+      연습 문제 1
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.37 #
+       연습 문제 2
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.57 #
+       연습 문제 3
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.75 #
+       연습 문제 4
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.88 #
+       연습 문제 5
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[15
+
+
+]
+! Misplaced alignment tab character &.
+l.118 ...og.naver.com/PostView.nhn?blogId=tnehf18&
+                                                  logNo=220423609713&proxyRe...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.118 ...ew.nhn?blogId=tnehf18&logNo=220423609713&
+                                                  proxyReferer=https%3A%2F%2...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.127 #
+        연습 문제 6
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.142 #
+        연습 문제 7
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.149 #
+        연습 문제 8
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.159 #
+        연습 문제 9
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.162 ...� 동안 시간에 따라 지상기온 T_
+                                                  0는 변도하나, 지상�...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.163 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+! You can't use `macro parameter character #' in vertical mode.
+l.166 #
+        연습 문제 10
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.169 ...�감율을 건조단열감율인 6.5C km^
+                                                  {-1}으로 가정하여 �...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.170 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+Missing character: There is no � in font zptmcmr!
+) [16]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
 (./article2_Solution.aux (./00atmospheric_science/01_effective_temperature.aux)
-(./00atmospheric_science/02_escape_velocity.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
+(./00atmospheric_science/02_escape_velocity.aux)
+(./00atmospheric_science/03_atmospheric_movement.aux)
+(./00atmospheric_science/04_hydrostatic_equation_of_atmosphere.aux)
+(./00atmospheric_science/05_Thermodynamics_of_atmosphere.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `article2_Solution.out' has not changed.
-(rerunfilecheck)             Checksum: 7FA7635B05CA9ECB910A7F402C255A5C;126.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
+(rerunfilecheck)             Checksum: C639BFC606C4A916700C92A01A9B9039;250.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) ) 
 Here is how much of TeX's memory you used:
- 25735 strings out of 492649
- 445013 string characters out of 6133384
- 590119 words of memory out of 5000000
- 28981 multiletter control sequences out of 15000+600000
- 52868 words of font info for 118 fonts, out of 8000000 for 9000
+ 25791 strings out of 492649
+ 446695 string characters out of 6133383
+ 597309 words of memory out of 5000000
+ 28995 multiletter control sequences out of 15000+600000
+ 55419 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,17n,68p,620b,829s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,17n,68p,626b,829s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2018/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/
 fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texlive/2018/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nan
-ummjbb3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc
-1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb><c:/te
-xlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd0.pfb><c:/texlive/
-2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2018/texmf-d
-ist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2018/texmf-dist/fo
-nts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2018/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjmb1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjmb2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjmb3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjmb3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
-b4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb
-><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb><c:/t
-exlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb><c:/texlive
-/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c:/texlive/2018/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texlive/2018/texmf-
-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2018/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjmbd.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmbe.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjmc0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjmc1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-mc1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pf
-b><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb><c:/
-texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc4.pfb><c:/texliv
-e/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb><c:/texlive/2018
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2018/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2018/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2018/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjmc8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmc9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmcc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmcd.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmce.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.p
-fb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb><c:/texli
-ve/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb><c:/texlive/201
-8/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/2018/texmf-dist
-/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2018/texmf-dist/fonts
-/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/s
-ymbol/usyr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on article2_Solution.pdf (6 pages, 2365283 bytes).
+nts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msam10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+bae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb3.pf
+b><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc1.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc5.pfb><c:/texliv
+e/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb><c:/texlive/2018
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb><c:/texlive/2018/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb><c:/texlive/2018/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjbd0.pfb><c:/texlive/2018/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjbd5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjbd6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmac.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmad.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.p
+fb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb><c:
+/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb><c:/texli
+ve/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/201
+8/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb><c:/texlive/2018/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmb5.pfb><c:/texlive/2018/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjmb6.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjmb7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjmb8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjmb9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjmba.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjmbb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.
+pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c
+:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texl
+ive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2018/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjmc2.pfb><c:/texlive/2018/texmf-dist/font
+s/type1/public/nanumtype1/nanummjmc3.pfb><c:/texlive/2018/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjmc4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjmc5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjmc5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjmc6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mmjmc7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7
+.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><
+c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2
+018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmca.pfb><c:/texlive/2018/te
+xmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjmd0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjmd0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/na
+numtype1/nanummjmd1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanummjmd2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjmd3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd
+4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/te
+xlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/
+2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/urw/times/utmb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8
+a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/
+2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on article2_Solution.pdf (16 pages, 2674009 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
- 11 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

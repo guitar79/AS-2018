@@ -1,0 +1,586 @@
+\section{대기역학 }
+
+\pagestyle{headings}
+\markboth{이탈 속도 (escape velocity)\hfill Kiehyun Park\hfill}
+
+
+**대기 역학**
+
+
+#좌표계1
+
+관성계 : 절대 좌표계 $ (x,~y,~z)$
+
+비관성계 : 회전 좌표계 $ (x^{\prime},~y^{\prime},~z^{\prime})$ 
+
+극좌표 $ (r,~\theta,~z)$
+
+
+$ (x,~y,~z) 	\rightarrow (r,~\theta,~z)$ 
+에서 수평 방향은 정역학 평형 상태에 있으므로, 
+
+$ (x, y) 	\rightarrow (r, \theta)$
+
+>$ \mathbf{F} = F_{x} \mathbf{\hat{i}}  + F_{y} \mathbf{\hat{j}} $ 
+에서 
+
+>$ F_{x} = m \dfrac{d^{2}x}{dt^{2}}$, 
+>$ F_{y} = m \dfrac{d^{2}y}{dt^{2}}$ 
+
+라고 할 수 있다. 
+
+>$ (x, y) = (r \cos \theta, r \sin \theta)$ 
+
+에서
+
+>$ F_{r} = F_{x} \cos \theta + F_{y} \sin \theta $, 
+
+>$ F_{\theta} = F_{y} \cos \theta - F_{x} \cos \theta $ 
+
+로 나타낼 수 있다. 
+
+>$ x = r \cos \theta $
+
+를 미분하면, 
+
+>$\dfrac{dx}{dt} = \cos \theta \dfrac{dr}{dt} - r \sin \theta \dfrac{d\theta}{dt}$ 
+
+이고, 이를 다시 미분하면, 
+
+> $\dfrac{d^{2}x}{dt^{2}} = \cos \theta \dfrac{d^{2}r}{dt^{2}} - \sin \theta \dfrac{dr}{dt} - \sin \theta \dfrac{dr}{dt} \dfrac{d\theta}{dt} -r \cos \theta \dfrac{d^{2}\theta}{dt^{2}}$
+
+같은 방법으로 
+>$ y = r \sin \theta $ 
+
+를 미분하면
+>$\dfrac{dy}{dt} = \sin \theta \dfrac{dr}{dt} + r \cos \theta \dfrac{d\theta}{dt}$ 
+
+이고, 이를 다시 미분하면
+
+>$\dfrac{d^{2}t}{dt^{2}} = \sin \theta \dfrac{d^{2}r}{dt^{2}} + \cos \theta \dfrac{dr}{dt} + \cos \theta \dfrac{dr}{dt} \dfrac{d\theta}{dt} -r \sin \theta \dfrac{d^{2}\theta}{dt^{2}}$
+
+이다. 
+
+>$ F_{r} = F_{x} \cos \theta + F_{y} \sin \theta 
+= m \left ( \dfrac{d^{2}x}{dt^{2}} \cos \theta + \dfrac{d^{2}y}{dt^{2}} \sin \theta \right) $
+
+>$ F_{\theta} = F_{y} \cos \theta - F_{x} \cos \theta 
+= m \left ( \dfrac{d^{2}y}{dt^{2}} \cos \theta - \dfrac{d^{2}x}{dt^{2}} \cos \theta \right) $
+
+
+정리하면, 
+
+> $ F_{r} = m \left[ \dfrac{d^{2}r}{dt^{2}} - r \left( {\dfrac{d \theta}{dt}} \right)^{2} \right] $에서,
+
+>$ -r \left( {\dfrac{d \theta}{dt}} \right)^{2} \rightarrow $ Centrifugal force \\
+
+>$ F_{\theta} = m \left[ r \dfrac{d^{2}\theta}{dt^{2}} + 2 \dfrac{dr}{dt} \dfrac{d\theta}{dt}  \right] $에서, 
+
+>$ 2 \dfrac{dr}{dt} \dfrac{d\theta}{dt} \rightarrow $ Coriolis force \\
+
+
+
+
+#좌표계2
+
+$ (x,~y) 	\rightarrow (x^{\prime},~y^{\prime})$
+
+>$ \mathbf {F} = F_{x} \mathbf{\hat{i}} + F_{y} \mathbf{\hat{j}} $
+
+에서 
+
+>$ F_{x} = m \dfrac{d^{2}x}{dt^{2}}$, 
+
+>$ F_{y} = m \dfrac{d^{2}y}{dt^{2}}$ 
+
+라고 할 수 있다.
+
+>$ x^{\prime} = x \cos \omega t + y \sin \omega t$, 
+
+>$ y^{\prime} = -x \sin \omega t + y \cos \omega t$
+
+>$ \mathbf {F} = F_{x^{\prime}} \mathbf {\hat{i}}  + F_{y^{\prime}} \mathbf {\hat{j}} $
+
+>$ F_{x^{\prime}} = F_{x} \cos \omega t + F_{y} \sin \omega t
+= m \left ( \dfrac{d^{2}x}{dt^{2}} \cos \omega t + \dfrac{d^{2}y}{dt^{2}} \sin \omega t \right) $
+
+>$ F_{y^{\prime}} = -F_{x} \sin \omega t + F_{y} \cos \omega t
+= m \left ( - \dfrac{d^{2}x}{dt^{2}} \sin \Omega t + \dfrac{d^{2}y}{dt^{2}} \cos \omega t \right) $
+
+정리하면,
+
+>$ F_{x^{\prime}} = m \left( \dfrac{d^{2}x}{dt^{2}}F_{x} - 2 \omega  \dfrac{dy}{dt} - 2 \omega^{2} x^{\prime}  \right) $
+
+>$ F_{y^{\prime}} = m \left( \dfrac{d^{2}y}{dt^{2}}F_{x} + 2 \omega  \dfrac{dx}{dt} - 2 \omega^{2} y^{\prime}  \right) $
+
+추가 작성 필요함...
+
+
+# Pressure gradient force
+
+>$ dV = dx \cdot dy \cdot dz $
+
+
+$x$ 방향은
+
+>$ F_{x} = P \cdot \Delta y \cdot \Delta z - \left( P + \Delta P \right) \Delta y \cdot \Delta z$
+
+>$ F_{x} = - \Delta P \cdot \Delta y \cdot \Delta z $
+
+>$ \dfrac { \Delta y}{\Delta x } = \dfrac {f\left(x + \Delta x \right) - f\left(x \right)}{ \Delta x}$
+
+>$f^{\prime} \left(x \right) = lim \dfrac { \Delta y}{\Delta x } 
+= \dfrac {f\left(x + \Delta x \right) - f\left(x \right)}{ \Delta x}$
+
+
+>$z = f \left( x, y \right) $ 
+
+에서 $y = b \rightarrow b$ 를 고정 하고 $x$ 방향에 대해서만 극한을 취하는 것을 편미분이라 한다.
+
+>$ \displaystyle \lim_{\Delta x \rightarrow 0} \dfrac { \Delta z}{\Delta x } 
+= \dfrac {f\left(x + \Delta x, b \right) - f\left(x, b \right)}{ \Delta x} = \dfrac{\partial z}{\partial x} $
+
+>$\displaystyle \lim_{\Delta y \rightarrow 0} \dfrac { \Delta z}{\Delta y } 
+= \dfrac {f\left(y + \Delta y, b \right) - f\left(y, b \right)}{ \Delta y} = \dfrac{\partial z}{\partial y} $
+
+>$ \Delta z = \dfrac{\partial z}{\partial x} \Delta x + \dfrac{\partial z}{\partial y} \Delta y $
+
+>$ dz = \dfrac{\partial z}{\partial x} dx + \dfrac{\partial z}{\partial y} dy $
+
+라고 쓸 수 있다.
+
+>$ F_{x} = - \Delta P \cdot \Delta y \cdot \Delta z 
+= \dfrac{\partial P}{\partial x} \cdot \Delta x \cdot \Delta y \cdot \Delta z $
+
+>$ F_{y} = - \Delta P \cdot \Delta z \cdot \Delta x 
+= \dfrac{\partial P}{\partial y} \cdot \Delta x \cdot \Delta y \cdot \Delta z $
+
+>$ F_{z} = - \Delta P \cdot \Delta x \cdot \Delta y 
+= \dfrac{\partial P}{\partial z} \cdot \Delta x \cdot \Delta y \cdot \Delta z $
+
+>$ \rho = \dfrac {m}{\Delta x \cdot \Delta y \cdot \Delta z} $ 
+
+단위 질량당 작용하는 각각의 힘은
+
+>$ \dfrac {F_{x}}{m} = - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} $ 
+>$ \dfrac {F_{y}}{m} = - \dfrac{1}{\rho} \dfrac{\partial P}{\partial y} $ 
+>$ \dfrac {F_{z}}{m} = - \dfrac{1}{\rho} \dfrac{\partial P}{\partial z} $ 
+
+이므로 단위질량당 기압경도력은 다음과 같이 쓸 수 있다.
+
+>$ \dfrac {F}{m} = - \dfrac{1}{\rho} \left( \dfrac{\partial P}{\partial x} i + \dfrac{\partial P}{\partial y} j + \dfrac{\partial P}{\partial z} k \right) 
+= - \dfrac{1}{\rho} \nabla P$ 
+
+# 회전계에서의 운동 방정식
+
+온도를 자동으로 측정하여 무선으로 송신하는 장치를 대형 풍선에 매달아 날려보낸다고 하자.
+
+시각 $ t_{o}$, 위치 $(x_{o},~y_{o},~z_{o})$에서 측정된 온도를 $T_{o}$라 하자. 
+
+시각 $ t_{o}+\Delta t$, 위치 $(x_{o}+\Delta x,~y_{o}+\Delta y,~z_{o}+\Delta z)$에서 측정된 온도를 $T_{o}+\Delta T$ 라고 하면
+
+>$ \Delta T = \dfrac{\partial T}{\partial t} \Delta t 
++ \dfrac{\partial T}{\partial x} \Delta x 
++ \dfrac{\partial T}{\partial y} \Delta y 
++ \dfrac{\partial T}{\partial z} \Delta z $
+
+이 식을 $ \Delta T $로 나누고 0으로 극한을 취하면,
+
+>$ \displaystyle \lim_{\Delta t \rightarrow 0} \dfrac{\Delta T}{\Delta t} 
+= \dfrac{DT}{Dt} = \dfrac{\partial T}{\partial t} 
++ \dfrac{\partial T}{\partial x} \dfrac{Dx}{Dt}
++ \dfrac{\partial T}{\partial y} \dfrac{Dy}{Dt}
++ \dfrac{\partial T}{\partial z} \dfrac{Dz}{Dt} $
+
+>$\dfrac{Dx}{Dt} \equiv u$, 
+>$\dfrac{Dy}{Dt} \equiv v$, 
+>$\dfrac{Dz}{Dt} \equiv w$, 
+
+라고 정의하면
+
+
+>$ \dfrac{DT}{Dt} = \dfrac{\partial T}{\partial t} 
++ \left( u \dfrac{\partial T}{\partial x}
++ v \dfrac{\partial T}{\partial y}
++ w \dfrac{\partial T}{\partial z} \right)
+= \dfrac{\partial T}{\partial t} + U \cdot \nabla T $
+
+여기에서 $ U = iu + jv + kw $ 3차원 속도 벡터 이다.
+
+회전계에서의 운동방정식을 유도하면,
+
+>$ \dfrac{DU}{Dt} = -2 \Omega \times U - \dfrac{1}{\rho} \nabla p + g + F_{r} $
+
+와 같이 나타낼 수 있다.
+
+
+
+# 직각 카테시안 좌표계에서의 운동 방정식
+
+>$ \dfrac{DU}{Dt} = -2 \Omega \times U - \dfrac{1}{\rho} \nabla p + g + F_{r} $ 
+
+에서, 먼저 전향력 성분을 나누어 보면, 
+
+> $ \Omega_{x} = 0$,
+
+> $ \Omega_{y} = \Omega \cos \phi$, 
+
+> $ \Omega_{z} = \Omega \sin \phi$ 
+
+이다.
+
+> $ -2 \Omega \times U  
+= -2 \left( 2 \Omega w \cos \phi -2 \Omega v \sin \phi \right) \mathbf{i}
+- 2 \Omega u \sin \phi \mathbf{j}
++ 2 \Omega u \cos \phi \mathbf{k}$
+
+로 나타낼 수 있다. 그리고 기압경도력을 나누어 보면, 
+
+>$ \nabla p = \mathbf{i} \dfrac{\partial P}{\partial x} 
++ \mathbf{j} \dfrac{\partial P}{\partial y}
++ \mathbf{k} \dfrac{\partial P}{\partial z}$
+
+중력은 
+
+> $ \mathbf{g} = -g \mathbf{k} $
+
+마찰력은
+
+>$ F_{r} = \mathbf{i} F_{x}
++ \mathbf{j} F_{y}
++ \mathbf{k} F_{z}$
+
+각 성분별로 운동방정식을 나타내면 
+
+>$ \dfrac{Du}{Dt}
+= - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} 
++ 2 \Omega v \sin \phi - 2 \Omega w \cos \phi 
++ F_{x} $
+
+>$ \dfrac{Dv}{Dt}
+= - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} 
+- 2 \Omega u \sin \phi
++ F_{y} $
+
+>$ \dfrac{Dw}{Dt}
+= - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} 
++ 2 \Omega u \cos \phi 
++ F_{z}$
+
+$x$ 성분에서 연직 전향력은 수평 전향력에 비해 매우 작은 값이므로, $- 2 \Omega w \cos \phi $ 항을 무시할 수 있다. 
+
+$z$ 성분의 전향력 $ 2 \Omega u \cos \phi $ 은 중력 $g$에 비해 매우 작으므로 무시할 수 있다. 
+
+더구나 $ \dfrac{Dw}{Dt}$의 크기는 더 작기 때문에 $ 2 \Omega \sin \phi $를 $f$로 두면 다음과 같이 간단히 할 수 있다.
+
+>$ \dfrac{Du}{Dt}
+= - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} 
++ 2 \Omega v \sin \phi 
+= - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} 
++ f v $\\
+
+>$ \dfrac{Dv}{Dt}
+= - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} 
+- 2 \Omega u \sin \phi
+= - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x}
+- f u $\\
+
+>$ 0
+= - \dfrac{1}{\rho} \dfrac{\partial P}{\partial x} 
+- g $
+
+
+
+# 자연 좌표계
+
+자연 좌표계 $ (s,~n,~z)$ 
+
+* $ t $ : 유체가 움직이는 방향에 평행인 방향
+
+* $ n $ : $ t $에 대하여 수직인 벡터이고 유체가 움직이는 방향의 왼쪽으로 향하는 방향이 + 방향임
+
+* $ k $ : 연직 방향
+
+>$\mathbf{V} = V \mathbf{t}$, $\mathbf{V} = \dfrac{Ds}{Dt}$
+
+가속도는
+>$ \dfrac{D\mathbf{V}}{Dt} = \mathbf{t} \dfrac{DV}{Dt} + V \dfrac{D \mathbf{t}}{Dt}$
+
+>$ \Delta \Psi = \dfrac{\Delta V}{R}$ 이고, 
+
+>$ \dfrac{D \mathbf{t}}{Ds} = \dfrac{\mathbf{n}}{R}$
+
+따라서
+
+>$ \dfrac{D \mathbf{t}}{Dt} = \dfrac{D \mathbf{t}}{Ds} \dfrac{Ds}{Dt} = \dfrac{\mathbf{n}}{R} V$
+
+>$ \therefore \dfrac{D \mathbf{V}}{Dt} = \mathbf{t} \dfrac{DV}{Dt} + V \dfrac{D\mathbf{t}}{Dt} = \mathbf{t} \dfrac{DV}{Dt} + \mathbf{n} \dfrac{V^{2}}{R} $
+
+전향력은 운동 방향의 오른쪽으로 작용하고 크기는 $fv$이므로 전향력은 $-f V \mathbf{n}$으로 나타내고, 
+
+기압 경도력은 
+>$ - \dfrac{1}{\rho} \left( \dfrac{\partial p}{\partial s} \mathbf{t} + \dfrac{\partial p}{\partial n} \mathbf{n} \right)$
+
+로 나타낼 수 있다. 이 벡터 식을 s와 n 방향으로 나타내면
+
+>$ \dfrac{D\mathbf{V}}{Dt} = - \dfrac{1}{\rho} \dfrac{\partial p}{\partial s}$
+
+>$  \dfrac{V^{2}}{R} + fV = - \dfrac{1}{\rho} \dfrac{\partial p}{\partial n}$
+
+등압선에 평행한 운동을 할 경우 공기덩이는 기압이 같은 곳으로 이동하므로
+
+>$ \dfrac{\partial p}{\partial s} = 0 \rightarrow  \dfrac{DV}{Dt} = 0$
+
+
+
+
+
+# 관성풍
+
+>$  \dfrac{V^{2}}{R} + fV = 0$
+
+>$ R = - \dfrac{V}{f} $
+
+>$ P = \dfrac{2 \pi R}{V} =  \dfrac{2 \pi }{2 \Omega \sin \phi} =  \dfrac{1}{2}  \dfrac{day}{\sin \phi}$
+
+
+# geostrophic wind
+
+유체가 흐르는 방향에 평행한 방향과 수직인 방향 즉 자연좌표계에 대한 힘의 균형을 다음과 같이 나타낼 수 있다.
+
+>$ \dfrac{D\mathbf{V}}{Dt} = - \dfrac{1}{\rho} \dfrac{\partial p}{\partial s}$
+
+>$  \dfrac{V^{2}}{R} + fV = - \dfrac{1}{\rho} \dfrac{\partial p}{\partial n}$
+
+지균풍의 경우에는 $\dfrac{\partial p}{\partial s} = 0$이고 등압선이 직선이므로 곡률반경 $R$의 절댓값은 $0$ 이 된다. 그러므로 지균풍은 아래와 같이 정의된다.
+
+>$-f V_{g} = -\dfrac{1}{\rho}\dfrac{\partial p}{\partial n}$ 
+
+지균풍의 풍속에 관해 정리하면
+
+>$V_{g} = -\dfrac{1}{f \rho}\dfrac{\partial p}{\partial n}$ 
+
+
+
+# 경도풍
+
+>$  \dfrac{V^{2}}{R} + fV = - \dfrac{1}{\rho} \dfrac{\partial p}{\partial n}$
+
+>$ V^{2} + fRV + \dfrac{R}{\rho} \dfrac{\partial p}{\partial n} = 0$
+
+>$ V = -\dfrac{fR}{2} \pm \left( \dfrac{f^{2} R^{2}}{4} - \dfrac{R}{\rho}\dfrac{\partial p}{\partial n} \right)^{\dfrac{1}{2}} $ or $ - \dfrac{fR}{2} \pm \sqrt{ \dfrac{f^{2} R^{2}}{4} - \dfrac{R}{\rho}\dfrac{\partial p}{\partial n} }$
+
+
+
+# 연습 문제 1. ~ 4.
+
+
+-1. 질량이 1$\rm kg$인 공이 1$\rm m$ 줄에 매인 채로 마찰이 없는 수평면 위에서 2 $\rm rad ~ s^{-1}$ 의 속도로 회전하고 있다. 그런데 줄의 길이를 0.5 $\rm m$로 짧게 하여 회전시킬 때 
+
+(1) 공의 회전 속도와 각운동량은 얼마가 되겠는가?
+
+각운동량 보존법칙은 
+
+>$ R_{1}~ V_{1} = R_{2}~ V_{2}$
+
+> $ V_{1} = R_{1}~ \Omega_{1}$,  $ V_{2} = R_{2}~ \Omega_{2}$ 이므로
+
+>$ {R_{1}}^{2}~ \Omega_{1} = {R_{2}}^{2}~ \Omega_{2}$
+
+>$ {1}^2 \times 2 = {0.5}^2 \times \Omega_{2}$ 에서 
+
+>$ \Omega_{2} = 8 \left( \rm rad ~ s^{-1} \right) $
+
+회전 선속도는 
+$ V_{2} = 0.5 \times 8 = 4 \left( \rm m ~ s^{-1} \right) $
+
+각운동량은
+$ {L}_{2} = R_{2} \times m V_{2} 
+= 0.5 \cdot 1 \cdot 4 
+= 2 \left( \rm kg ~ m^{2} ~ s^{-1} \right)$
+
+이다.
+
+(2) 구심 가속력은 얼마가 되겠는가?
+
+
+구심 가속력은
+
+>$ {R}_{2} ~ {\Omega}_{2}^{2}
+= \cdot 0.5 \cdot 8^{2}
+= 32 \left( \rm m ~ s^{-2} \right)$
+
+-2.  북위  $37.5^{\circ}$에서 서풍이 5 $\rm m ~ s^{-1} $로 불고 있다. 절대 좌표계에서 이 바람을 관측하였다면 바람의 속도는 얼마가 되겠는가?
+
+북위 $37.5^{\circ}$의 자전 선속도는
+
+>$R_{E} \cdot \cos \phi \Omega
+= 6380000 \cdot 0.7934 \cdot 7.29 \times 10^{-5}
+= 369.01 \left( \rm m ~ s^{-1} \right)$
+
+
+절대 좌표계에서 이 바람을 관측한다면 자전 선속도와 바람의 방향이 같으므로
+
+>$369.01 + 5 = 374.01 \left( \rm m ~ s^{-1} \right)$ 이다.
+
+-3.  북위  $30^{\circ}$에서 동쪽을 항하여 1000 $\rm km hr^{-1}$ 비행하는 비행기가 있다. 이 때 이 비행기에 타고 있는 사람(질량 65$\rm kg$)에게 작용하는 전향력을 구하여라.
+
+전향력은 
+>$ 2 m v \Omega \sin \phi
+= \  2 \cdot 65 \cdot \dfrac{1000000} {3600} \cdot 7.29 \times 10^{-5} \cdot 0.5
+= 1.32 \left( \rm kg~m ~ s^{-2} = N \right) $이다.
+
+-4.  같은 위도대 (북위  $37^{\circ}$)에 있는 두 지역(100 $\rm km$ 떨어져 있음)의 기압차는 2 $\rm hPa$이다. 이 때 지균풍의 속력을 계산하라.
+
+> $ f v_{g} = - {\rho} \dfrac{\partial P}{\partial n} $
+
+에서, 지균풍의 풍속은 
+
+>$ v_{g} = - \dfrac{1}{f \rho} \cdot \dfrac{\partial P}{\partial n}
+= - \dfrac{1}{2 \Omega \sin \phi \rho~} \dfrac{\partial P}{\partial n} $
+>$= - \cdot \dfrac{1}{2 \cdot 7.29 \times 10^{-5} \left( \rm s^{-1} \right) \cdot 0.5 \cdot \rho} \cdot \dfrac{200 \left( \rm kg~m~s^{-2} m^{-2} \right)} {100000 \left( \rm m \right)} 
+= - \dfrac{1}{\rho} \cdot 27.43 \left( \rm kg~m^{-2}~ s^{-1} \right) $
+
+이다. 공기의 밀도를 $ 1\rm kg~m^{-3}$이라고 가정하면, 
+
+>$v_{g} = - 27.43 \left( \rm m~ s^{-1} \right) $
+
+이다.
+
+
+
+# 연습 문제 5. ~ 6.
+
+
+-5. 북위  $30^{\circ}$에서 관성풍의 바람이 10 $\rm m s^{-1}$ 일 때, 관성원의 반지름은 얼마가 되겠는가?
+
+
+관성원의 반지름은 
+
+>$ R = - \dfrac{V}{f} = - \dfrac{V}{2 \Omega \sin \phi} = \dfrac{10}{2 \cdot 7.29 \times 10^{-5} \cdot 0.5} = 137,136.588 \left( \rm m \right) = 137.1 \left( \rm km \right)$
+
+-6. 
+
+
+경도풍은 다음과 같이 나타낼 수 있다.
+
+>$ V^{2} + fRV + \dfrac{R}{\rho} \dfrac{\partial p}{\partial n} = 0$
+
+지균풍은 
+
+>$f V_{g} = -\dfrac{1}{\rho}\dfrac{\partial p}{\partial n}$ 
+
+이므로 
+
+>$V_{g} = -\dfrac{1}{f \rho}\dfrac{\partial p}{\partial n}$ 
+
+>$ V^{2} + fRV - f R V_{g} = 0$
+
+
+>$ V = -\dfrac{fR}{2} \pm \sqrt{ \dfrac{f^{2} R^{2}}{4} - \dfrac{R}{\rho}\dfrac{\partial p}{\partial n} } = -\dfrac{fR}{2} \pm \sqrt{ {\left(\dfrac{f R}{2} \right)}^{2} + f R V_{g} }$
+
+
+저기압성 경도풍의 경우 $ R > 0$ 이고, $- \dfrac{\partial p}{\partial n} > 0$ 인 경우에 해당되므로, 
+
+>$ V = -\dfrac{fR}{2} + \sqrt{ \dfrac{f^{2} R^{2}}{4} - \dfrac{R}{\rho}\dfrac{\partial p}{\partial n} } = -\dfrac{fR}{2} + \sqrt{ {\left(\dfrac{f R}{2} \right)}^{2} + f R V_{g} }$
+
+>$ =  -\dfrac{ 2 \Omega \sin \phi R}{2} + \sqrt{ {\left(+\dfrac{ 2 \Omega \sin \phi R}{2} \right)}^{2} + 2 \Omega \sin \phi R V_{g} } $
+
+>$ =  -\Omega \sin \phi R + \sqrt{ {\left(\Omega \sin \phi R \right)}^{2} + 2 \Omega \sin \phi R V_{g} } $
+
+에서 
+
+>$ \Omega \sin \phi R = 7.29 \times 10^{-5} \cdot 0.5 \cdot 1000000 =  36.45  \left( \rm m s^{-1} \right)$
+
+이므로
+
+>$ -\Omega \sin \phi R + \sqrt{ {\left(\Omega \sin \phi R \right)}^{2} + 2 \Omega \sin \phi R V_{g} }$
+
+>$= -36.45+ \sqrt{ {\left(36.45 \right)}^{2} + 2 \cdot 36.45 \cdot 10 } $
+
+>$ = -36.45+ 45.33 = 8.88 \left( \rm m s^{-1} \right)$
+
+
+
+
+# 연습 문제 7. ~ 8. 
+
+
+-7. 기압경도가 1000 $\rm km$당 10 $\rm hPa $이다. 이 때의 지균풍을 계산하라. 그리고 이러한 기압경도가 유지되면서, 곡률반경이 $\pm 500 \rm km$ 일 때의 경도풍들의 풍속을 계산하여 저기압의 경도풍이 지균풍보다 작음을 보이고, 반대로 고기압의 경도풍이 지균풍보다 큼을 보여라. 정상적인 경우와 비정상적인 경우 모두에 대하여 계산하라. $\rho = 1 \rm kg m^{-3}$ 이고, $ f = 10^{-4} s^{-1}$이다. 
+
+
+지균풍은 
+
+>$f V_{g} = -\dfrac{1}{\rho}\dfrac{\partial p}{\partial n}$ 
+
+>$V_{g} = -\dfrac{1}{f \rho}\dfrac{\partial p}{\partial n} =  -\dfrac{1}{10^{-4} \cdot 1}\dfrac{-1000}{1000000} = 10 \left( \rm m s^{-1} \right)$ 
+
+경도풍은 다음과 같이 나타낼 수 있다.
+
+>$ V^{2} + fRV + \dfrac{R}{\rho} \dfrac{\partial p}{\partial n} = 0$
+
+>$ V^{2} + fRV - f R V_{g} = 0$
+
+>$ V = -\dfrac{fR}{2} \pm \sqrt{ \dfrac{f^{2} R^{2}}{4} - \dfrac{R}{\rho}\dfrac{\partial p}{\partial n} } = -\dfrac{fR}{2} \pm \sqrt{ {\left(\dfrac{f R}{2} \right)}^{2} + f R V_{g} }$
+
+고기압성 경도풍은 $ R < 0$ 인 경우
+
+>$ V_{GH} = -\dfrac{fR}{2} \pm \sqrt{ {\left(\dfrac{f R}{2} \right)}^{2} + f R V_{g} }$
+
+>$= -\dfrac{10^{-4} \cdot -500000}{2} \pm \sqrt{ {\left(\dfrac{10^{-4} \cdot -500000}{2} \right)}^{2} + 10^{-4} \cdot -500000 \cdot 10 }$
+
+>$= 25 \pm 11.18 $
+
+>$V_{GH} =13.81 $ or $V_{GH} = 36.18 \left( \rm m s^{-1} \right)$
+
+저기압성 경도풍은  $ R > 0$ 인 경우
+
+>$ V_{GL} = -\dfrac{fR}{2} \pm \sqrt{ {\left(\dfrac{f R}{2} \right)}^{2} + f R V_{g} }$
+
+>$= -\dfrac{10^{-4} \cdot 500000}{2} \pm \sqrt{ {\left(\dfrac{10^{-4} \cdot 500000}{2} \right)}^{2} + 10^{-4} \cdot 500000 \cdot 10 }$
+
+>$= -25 \pm 33.54 $
+
+>$V_{GL} =8.54 $ or $V_{GL} = 58.54 \left( \rm m s^{-1} \right)$
+
+
+경도풍의 풍속
+
+>$ V^{2} + fRV - f R V_{g} = 0$
+
+에서 
+
+>$ \dfrac{V_{g}}{V} = 1 + \dfrac{V}{fR}$
+
+와 같이 나타낼 수 있다. 
+
+저기압성 경도풍은  $ R > 0$ 이므로 경도풍보다 느리고, 고기압성 경도풍은  $ R < 0$ 이므로 경도풍보다 빠르다.
+
+
+-8. 850$\rm hPa$와  500$\rm hPa$ 사이의 평균 기온이 동쪽으로 갈수록 100 $\rm km$ 당  $2^{\circ}$씩 감소하였다. 이 때 850$\rm hPa$의 지균 풍속이 남동풍 20 $\rm m s^{-1}$이면, 500$\rm hPa$에서의 자균 풍속은 얼마가 되겠는가? $ f = 10^{-4} s^{-1}$이다. 
+
+
+???
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
