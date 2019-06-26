@@ -1,59 +1,5 @@
 \section{이탈 속도 (escape velocity)}
 
-\pagestyle{headings}
-\markboth{이탈 속도 (escape velocity)\hfill Kiehyun Park\hfill}
-
-
-
-\begin{tikzpicture}[scale = 1, xshift = 1cm]
-	\draw (5,2) circle (3cm);
-	\draw (5,2) ellipse (3cm and 0.8cm);
-	\draw (5,2) circle (0.03cm);
-	\draw (5,2) circle (0.2cm) node[below, yshift=-0.2cm] {Sun};
-	\draw (8,2) circle (0.15cm) node[right, xshift=0.2cm] {Earth};
-	\draw (5,2) -- (8,2) node[above, xshift=-1.5cm, yshift=0.1cm] {$r_{\mathrm{E}}$};
-	\draw (5,2) arc (120:100:3cm);
-	\draw (8,2) arc (60:80:3cm);
-	\draw (7.85,2) -- (8.15,2);
-	\draw (8,1.85) -- (8,2.15);
-\end{tikzpicture}
-
-\vspace{1cm}
-\begin{tikzpicture}[scale = 1, xshift = 1cm]
-	\draw (5,2) ellipse (3cm and 0.8cm);
-	\draw (5,2) ellipse (4.5cm and 1.2cm);
-	\draw (5,2) circle (0.03cm);
-	\draw (5,2) circle (0.2cm) node[below, yshift=-0.2cm] {Sun};
-	\draw (8,2) circle (0.15cm) node[right, xshift=0.2cm] {Earth};
-	\draw (5,2) -- (8,2) node[above, xshift=-1.5cm, yshift=0.1cm] {$r_{\mathrm{E}}$};
-	\draw (5,2) arc (120:100:3cm);
-	\draw (8,2) arc (60:80:3cm);
-	\draw (0.5,2) circle (0.15cm) node[left, xshift=-0.2cm] {planet};
-	\fill (5,2) -- (0.5,2) node[above, xshift=2.25cm, yshift=0.1cm] {$r_{\mathrm{P}}$};
-	\draw (0.5,2) arc (115:90:4cm);
-	\draw (5,2) arc (65:90:4cm);
-	\draw (7.85,2) -- (8.15,2);
-	\draw (8,1.85) -- (8,2.15);
-\end{tikzpicture} 
-	
-\vspace{1cm}
-\begin{tikzpicture}[scale = 1, xshift = 1cm]
-	\draw [line width=0.25mm, blue] [->] (0,0) -- (1,0) node[black, below, yshift=-0.5cm] {Incoming solar flux $S_{\mathrm{E}}$};
-	\draw [line width=0.25mm, blue] [->] (0,1) -- (1,1);
-	\draw [line width=0.25mm, blue] [->] (0,2) -- (1,2);
-	\draw [line width=0.25mm, blue] [->] (0,3) -- (1,3);
-	\draw [line width=0.25mm, blue] [->] (0,4) -- (1,4) ;
-	
-	\draw (5,2) circle (3cm);
-	
-	\fill [blue!20!white] (5,2) ellipse (1cm and 3cm) ;
-	\draw (5,2) ellipse (1cm and 3cm) ;
-	\draw (10,2) ellipse (1cm and 3cm);
-	\draw (10,2) -- (10,5) node[left, yshift=-1.5cm] {$R_{\mathrm{E}}$};
-	\draw (10,2) arc (210:190:3cm);
-	\draw (10,5) arc (150:170:3cm);
-\end{tikzpicture}
-
 \begin{figure*}[h]
 	\begin{tikzpicture}[rounded corners=3mm]
 	\path node[rectangle,draw=green,fill=green!8,inner sep=.70cm] 
